@@ -4,9 +4,9 @@ var cors = require('cors');
 const PORT = 8080;
 const app = express();
 //console.log(process.env)
-//console.log(process.env)
 
 var healthy=true;
+var healthyTest=true;
 
 
 app.get('/', function (req, res) {
